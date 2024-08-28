@@ -1,4 +1,4 @@
-# *Your Project Description*
+# CS-25-325 Plug and Play Clickstream Dashboard and Agent Event Tracker
 ## *Sponsoring Company or Organization*
 ## *Short Project Description*
 The directory structure in this GitHub is to allow the project to have all its resources self-contained.
