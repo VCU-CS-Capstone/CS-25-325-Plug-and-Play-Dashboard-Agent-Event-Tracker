@@ -17,7 +17,7 @@
 
 Website created with clickstream events
 
-Website reusable dashboards and visualization tools are created for platform stakeholders
+Website contains reusable dashboards and visualization tools are created for platform stakeholders
 
 **Coding Plan**
 
