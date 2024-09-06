@@ -1,11 +1,11 @@
 # *CS-25-325 Plug and Play Clickstream Dashboard and Agent Event Tracker*
 ## **Sponsor:** Capital One
 
-**Students' Names:**
+**Students' Names:** Hoang Le, Maxwell Goehle, Ben Aber, Mohammed Ahmed
 
-**Mentor:**
+**Mentor:** Mahesh Nair, Tyler Jordan, Emily Croxall
 
-**Faculty Advisor:**
+**Faculty Advisor:** Rachita Sowles
 
 **Project:**
 
