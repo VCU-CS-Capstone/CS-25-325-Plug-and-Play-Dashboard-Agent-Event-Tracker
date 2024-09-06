@@ -1,4 +1,4 @@
-# *CS-25-325 Plug and Play Clickstream Dashboard and Agent Event Tracker*
+# *CS-25-325*
 ## **Sponsor:** Capital One
 
 **Students' Names:** Hoang Le, Maxwell Goehle, Ben Aber, Mohammed Ahmed
@@ -7,7 +7,7 @@
 
 **Faculty Advisor:** Rachita Sowle
 
-**Project:**
+**Project:** Plug and Play Clickstream Dashboard and Agent Event Tracker
 
 **Project Description:**
 
