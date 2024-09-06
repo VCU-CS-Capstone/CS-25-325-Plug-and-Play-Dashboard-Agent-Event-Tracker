@@ -19,5 +19,5 @@
 
 | Week | Tasks | Goals |
 |------|-------|-------|
-| _Week 1_ | _Task 1_ | _Goal 1_ |
+| _Week 1_ | _Meet as a team_ | _Get to know each other_ |
 | ... | ... | ... |
