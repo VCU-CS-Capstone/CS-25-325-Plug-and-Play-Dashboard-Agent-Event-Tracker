@@ -20,4 +20,4 @@
 | Week | Tasks | Goals |
 |------|-------|-------|
 | _Week 1_ | _Meet as a team_ | _Get to know each other_ |
-| ... | ... | ... |
+| _Week 2_ | _Complete Team Contract_ | _Assign roles_ |
