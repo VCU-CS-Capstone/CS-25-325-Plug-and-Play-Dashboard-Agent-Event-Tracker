@@ -1,5 +1,5 @@
-# *CSnnn Project Name*
-## **Sponsor:**
+# *CS-25-325 Plug and Play Clickstream Dashboard and Agent Event Tracker*
+## **Sponsor:** Capital One
 
 **Students' Names:**
 
