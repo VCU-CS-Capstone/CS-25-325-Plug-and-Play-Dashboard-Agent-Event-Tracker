@@ -1,21 +1,20 @@
 # *CS 25-325 Project Name*
 
-**Students' Names:**
+**Students' Names: Maxwell Goehle, Hoang Le, Ben Aber, Mohammed Ahmed**
 
-**Mentor:**
+**Mentor: Mahesh Nair, Tyler Jordan, Emily Croxall**
 
-**Faculty Advisor:**
+**Faculty Advisor: Rachita Sowle**
 
 ## 1) Accomplishments this week ##
-   - investigate databases done by student A
-   - make flowcharts done by students A and B
+   - Met with capital one advisors in a meet and greet on Wednesday
+   - Submitted team contract
 
 ## 2) Milestones to be completed next week ##
-   - debug the code to be performed by student C
+   - Met with advisors to discuss our project in more detail
 
 ## 3) Issues, problems or concerns ##
-   - student C needs to learn java
-   - database repository costs big $$$
+   - No issues to report yet
    
 
 
