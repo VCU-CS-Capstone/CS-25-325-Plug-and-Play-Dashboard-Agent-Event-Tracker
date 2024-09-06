@@ -13,7 +13,7 @@
 
 **Problem Definition:** “As a platform stakeholder, how can I easily implement, store, and analyze clickstream data to gain a meaningful understanding of how users interact with my features?”
 
-**Deliverables**
+**Deliverables** Website created with clickstream events
 
 **Coding Plan**
 
