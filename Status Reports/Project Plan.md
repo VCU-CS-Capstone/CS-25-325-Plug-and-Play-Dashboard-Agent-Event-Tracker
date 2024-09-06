@@ -5,7 +5,7 @@
 
 **Mentor:** Mahesh Nair, Tyler Jordan, Emily Croxall
 
-**Faculty Advisor:** Rachita Sowles
+**Faculty Advisor:** Rachita Sowle
 
 **Project:**
 
