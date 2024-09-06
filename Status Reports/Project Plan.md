@@ -9,9 +9,9 @@
 
 **Project:** Plug and Play Clickstream Dashboard and Agent Event Tracker
 
-**Project Description:**
+**Project Description:** The project aims to help platform stakeholders implement, store, and analyze clickstream data to understand user interactions. Team members will build a website to capture clickstream events and choose a platform (e.g., AWS, Tableau) for data storage and analysis. They will research and create visualizations, ultimately developing reusable dashboards that allow stakeholders to gain insights with minimal technical effort.
 
-**Problem Definition:**
+**Problem Definition:** “As a platform stakeholder, how can I easily implement, store, and analyze clickstream data to gain a meaningful understanding of how users interact with my features?”
 
 **Deliverables**
 
