@@ -1,4 +1,4 @@
-# *CS 25-325 Project Name*
+# *CS 25-325*
 
 **Students' Names: Maxwell Goehle, Hoang Le, Ben Aber, Mohammed Ahmed**
 
