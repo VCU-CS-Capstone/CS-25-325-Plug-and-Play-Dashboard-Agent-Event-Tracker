@@ -8,5 +8,5 @@ Faculty Advisor: Rachita Sowle
    - Group met for a meet and greet
 ## 2) Milestones to be completed next week ##
    - Reach out to faculty advisor
-## 4) Issues, problems or concerns ##
+## 3) Issues, problems or concerns ##
    - No issues to report yet
