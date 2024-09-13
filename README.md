@@ -1,10 +1,7 @@
 # CS-25-325 Plug and Play Clickstream Dashboard and Agent Event Tracker
 ## Capital One
 ## *Short Project Description*
-The directory structure in this GitHub is to allow the project to have all its resources self-contained.
-Open Source software should not just be a repository of code.  There are a number of directories to help you and others who will 
-follow in your footsteps.  It'll also allow the Linux Foundation OMP Mentorship program to keep track of your project and get
-a better understanding of the problems you encountered during the development of this project. 
+Capstone group CS-25-325 will build a website that tracks clickstream events, select a data storage and analysis platform (e.g., AWS, Tableau), research data visualization tools, and create reusable dashboards for stakeholders to easily view and analyze data with minimal technical input. These dashboards will allow stakeholders to input key data, such as feature names, and receive insightful visualizations, facilitating informed decision-making.
 
 | Folder | Description |
 |---|---|
