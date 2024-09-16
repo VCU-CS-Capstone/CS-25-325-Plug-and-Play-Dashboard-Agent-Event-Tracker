@@ -1,4 +1,4 @@
-# *CS 25-325*
+# *CS 25-325 Status Report Week 2*
 
 **Students' Names: Maxwell Goehle, Hoang Le, Ben Aber, Mohammed Ahmed**
 
