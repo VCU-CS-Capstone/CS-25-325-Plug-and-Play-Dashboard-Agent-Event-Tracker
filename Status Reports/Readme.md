@@ -12,9 +12,9 @@ Status Report Fall Week XX.md is a template for to copy-paste into new Status re
 | Document | Tasks | Accomplishments | Issues |
 |---|---|---|---|
 | Week 1 Status Report | We've accomplished a lot | We'll accomplish even more | No problems to report! |
-| Week 2 Status Report | Met with capital one | Submitted team contract | No problems as of now |
-| Week 3 Status Report | Finish Github repository setup, Meet with VCU Advisor, Meet with Capital One| Github repo setup finished, Understand responsibilities & expectations| No problems as of now|
-| Week 4 Status Report | | | |
+| Week 2 Status Report | Meet with capital one | Submitted team contract | No problems as of now |
+| Week 3 Status Report | Finish Github repository setup, Meet with VCU Advisor, Meet with Capital One| Github repo setup finished, Understand responsibilities & expectations| No problems as of now |
+| Week 4 Status Report | Meet with Capital One to discuss project proposal details, contact VCU advisor about VCU website clickstream data | Discussed project details with Capital One| No problems as if now |
 | Week 5 Status Report | | | |
 | Week 6 Status Report | | | |
 | Week 7 Status Report | | | |
