@@ -18,7 +18,7 @@ Status Report Fall Week XX.md is a template for to copy-paste into new Status re
 | Week 5 Status Report | Worked on Project Presentaion as well as Project Proposal and met with Captial One to discuss | We will continue work on project proposal as well as give the presentation | No problems as of now |
 | Week 6 Status Report | Finish Project Presentation, continue work on Project Proposal | Presented in front of capital one stakeholders on Oct. 3rd | No problems as of now |
 | Week 7 Status Report | Creation of prototype website, and initial collection of clickstream data | Submitted Project Proposal | No problems as of now |
-| Week 8 Status Report | Research Google Analytics & ReactJS| Learned ReactJS and started website development| No problems as of now|
+| Week 8 Status Report | Research Google Analytics & ReactJS, meet together to start on creation of website| Learned ReactJS and started website development| No problems as of now|
 | Week 9 Status Report | | | |
 | Week 10 Status Report | | | |
 | Week 11 Status Report | | | |
