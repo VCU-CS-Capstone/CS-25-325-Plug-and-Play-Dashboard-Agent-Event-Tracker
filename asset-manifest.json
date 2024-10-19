@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/CS-25-325-Plug-and-Play-Dashboard-Agent-Event-Tracker/src/agent-servicing-website/static/css/main.23c0e7c4.css",
-    "main.js": "/CS-25-325-Plug-and-Play-Dashboard-Agent-Event-Tracker/src/agent-servicing-website/static/js/main.d5f11d48.js",
-    "static/js/453.3f2e181d.chunk.js": "/CS-25-325-Plug-and-Play-Dashboard-Agent-Event-Tracker/src/agent-servicing-website/static/js/453.3f2e181d.chunk.js",
-    "index.html": "/CS-25-325-Plug-and-Play-Dashboard-Agent-Event-Tracker/src/agent-servicing-website/index.html",
-    "main.23c0e7c4.css.map": "/CS-25-325-Plug-and-Play-Dashboard-Agent-Event-Tracker/src/agent-servicing-website/static/css/main.23c0e7c4.css.map",
-    "main.d5f11d48.js.map": "/CS-25-325-Plug-and-Play-Dashboard-Agent-Event-Tracker/src/agent-servicing-website/static/js/main.d5f11d48.js.map",
-    "453.3f2e181d.chunk.js.map": "/CS-25-325-Plug-and-Play-Dashboard-Agent-Event-Tracker/src/agent-servicing-website/static/js/453.3f2e181d.chunk.js.map"
+    "main.css": "/CS-25-325-Plug-and-Play-Dashboard-Agent-Event-Tracker/static/css/main.23c0e7c4.css",
+    "main.js": "/CS-25-325-Plug-and-Play-Dashboard-Agent-Event-Tracker/static/js/main.e9e54599.js",
+    "static/js/453.3f2e181d.chunk.js": "/CS-25-325-Plug-and-Play-Dashboard-Agent-Event-Tracker/static/js/453.3f2e181d.chunk.js",
+    "index.html": "/CS-25-325-Plug-and-Play-Dashboard-Agent-Event-Tracker/index.html",
+    "main.23c0e7c4.css.map": "/CS-25-325-Plug-and-Play-Dashboard-Agent-Event-Tracker/static/css/main.23c0e7c4.css.map",
+    "main.e9e54599.js.map": "/CS-25-325-Plug-and-Play-Dashboard-Agent-Event-Tracker/static/js/main.e9e54599.js.map",
+    "453.3f2e181d.chunk.js.map": "/CS-25-325-Plug-and-Play-Dashboard-Agent-Event-Tracker/static/js/453.3f2e181d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.23c0e7c4.css",
-    "static/js/main.d5f11d48.js"
+    "static/js/main.e9e54599.js"
   ]
 }
