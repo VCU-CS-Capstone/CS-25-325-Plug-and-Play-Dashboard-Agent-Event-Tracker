@@ -1,38 +1,175 @@
-.App {
+/* Global Reset for margins, padding, and box-sizing */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Basic styles for the body */
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* Header styles - positions the entire header at the top */
+.header {
+  display: flex;
+  justify-content: center; /* Center header content horizontally */
+  align-items: center; /* Center header content vertically */
+  padding: 0;
+  background-color: #f0f0f0;
+  height: 0.75in; /* Set header height */
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+}
+
+/* Styles for the logo area */
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+/* Adjusts the size and spacing between logos */
+.logo img {
+  height: 45px;
+  margin-right: 5px;
+}
+
+/* Navigation container for the dropdown buttons */
+.nav-links {
+  display: flex;
+  align-items: center; /* Align buttons vertically */
+  margin-left: 0; /* No space between logo and navigation buttons */
+}
+
+/* Individual dropdown button container */
+.dropdown {
+  position: relative;
+  display: inline-block;
+  margin-right: 0px; /* No margin between buttons */
+}
+
+/* Button styles - sizes and positions the buttons */
+.dropbtn {
+  background-color: #f0f0f0;
+  color: black;
+  padding: 0; /* No padding for compact buttons */
+  font-size: 16px; /* Font size */
+  font-weight: 700; /* Bold font */
+  border: none;
+  cursor: pointer;
+  text-align: center;
+  position: relative;
+  transition: color 0.3s ease, font-weight 0.3s ease;
+  min-width: 90px;
+  height: 40px; /* Button height */
+  box-sizing: border-box;
+  line-height: normal;
+}
+
+/* Special settings for the "Reason for Call Today" button */
+.dropbtn.reason {
+  min-width: 150px; /* Minimum width */
+  font-weight: 700;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* Underline animation for buttons */
+.dropbtn::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  width: 0;
+  height: 2px;
+  background-color: #0056b3;
+  transition: width 0.4s ease, left 0.4s ease;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/* Hover styles for buttons */
+.dropbtn:hover {
+  color: #0056b3;
+  font-weight: 700;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+/* Underline animation effect on hover */
+.dropbtn:hover::after {
+  width: 100%;
+  left: 0;
+}
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  width: 200px; /* Set fixed width for dropdown */
+  z-index: 1;
+}
+
+/* Links inside dropdown content */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  transition: font-weight 0.3s ease, color 0.3s ease;
+  white-space: nowrap; /* Prevent text from wrapping */
+}
+
+/* Hover effect for dropdown options */
+.dropdown-content a:hover {
+  font-weight: bold;
+  color: #0056b3;
+}
+
+/* Show dropdown when hovering */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Search container styles */
+.search-container {
   display: flex;
-  flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  position: relative;
 }
 
-.App-link {
-  color: #61dafb;
+/* Search button settings */
+.search-btn {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 8px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* Search icon settings */
+.search-icon {
+  height: 25px;
+  width: 25px;
+}
+
+/* Input field for the search */
+.search-input {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  width: 200px;
+  margin-left: 10px;
+  transition: width 0.3s ease;
+  position: absolute;
+  right: -210px;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.3s ease, visibility 0.3s ease;
+}
+
+/* Show search bar when active */
+.search-container.active .search-input {
+  opacity: 1;
+  visibility: visible;
 }
