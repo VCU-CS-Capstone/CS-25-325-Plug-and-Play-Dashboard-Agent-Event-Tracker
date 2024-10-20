@@ -12,41 +12,41 @@ function App() {
     <div className="App">
       <header className="header">
         <div className="logo">
-          <img src="/vcu.png" alt="VCU Logo" />
-          <img src="/x.png" alt="X" />
-          <img src="/capitalone.png" alt="Capital One Logo" />
+          <img src="./vcu.png" alt="VCU Logo" />
+          <img src="./x.png" alt="X" />
+          <img src="./capitalone.png" alt="Capital One Logo" />
         </div>
 
         <nav className="nav-links">
           <div className="dropdown">
             <button className="dropbtn">Support</button>
             <div className="dropdown-content">
-              <a href="#">ChatBot</a>
-              <a href="#">Submit Ticket</a>
-              <a href="#">FAQ's</a>
+              <a>ChatBot</a>
+              <a>Submit Ticket</a>
+              <a>FAQ's</a>
             </div>
           </div>
           <div className="dropdown">
             <button className="dropbtn">Help</button>
             <div className="dropdown-content">
-              <a href="#">Advisor</a>
-              <a href="#">Contact Us</a>
+              <a>Advisor</a>
+              <a>Contact Us</a>
             </div>
           </div>
           <div className="dropdown">
             <button className="dropbtn reason">Reason for Call Today</button>
             <div className="dropdown-content">
-              <a href="#">Payment</a>
-              <a href="#">Fraud</a>
-              <a href="#">Renew Card</a>
-              <a href="#">New Customer</a>
+              <a>Payment</a>
+              <a>Fraud</a>
+              <a>Renew Card</a>
+              <a>New Customer</a>
             </div>
           </div>
         </nav>
 
         <div className={`search-container ${isSearchOpen ? 'active' : ''}`}>
           <button className="search-btn" onClick={toggleSearchBar}>
-            <img src="/search.png" alt="Search" className="search-icon" />
+            <img src="./search.png" alt="Search" className="search-icon" />
           </button>
           <input
             type="text"
