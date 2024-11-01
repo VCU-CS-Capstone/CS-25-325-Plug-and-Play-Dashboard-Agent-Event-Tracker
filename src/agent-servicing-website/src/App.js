@@ -1,8 +1,20 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import './App.css';
+import MyComponent from "./components/MyComponent"; // Ensure the path is correct
+import ReactGA from "react-ga4";
 
 function App() {
   const [isSearchOpen, setIsSearchOpen] = useState(false);
+
+  // Track page views on component mount
+  useEffect(() => {
+    console.log("Attempting to send pageview event");
+    ReactGA.send({
+      hitType: "pageview",
+      page: window.location.pathname + window.location.search,
+    });
+  }, []);
+  
 
   const toggleSearchBar = () => {
     setIsSearchOpen(!isSearchOpen);
@@ -21,25 +33,25 @@ function App() {
           <div className="dropdown">
             <button className="dropbtn">Support</button>
             <div className="dropdown-content">
-              <a>ChatBot</a>
-              <a>Submit Ticket</a>
-              <a>FAQ's</a>
+              <a href="#">ChatBot</a>
+              <a href="#">Submit Ticket</a>
+              <a href="#">FAQ's</a>
             </div>
           </div>
           <div className="dropdown">
             <button className="dropbtn">Help</button>
             <div className="dropdown-content">
-              <a>Advisor</a>
-              <a>Contact Us</a>
+              <a href="#">Advisor</a>
+              <a href="#">Contact Us</a>
             </div>
           </div>
           <div className="dropdown">
             <button className="dropbtn reason">Reason for Call Today</button>
             <div className="dropdown-content">
-              <a>Payment</a>
-              <a>Fraud</a>
-              <a>Renew Card</a>
-              <a>New Customer</a>
+              <a href="#">Payment</a>
+              <a href="#">Fraud</a>
+              <a href="#">Renew Card</a>
+              <a href="#">New Customer</a>
             </div>
           </div>
         </nav>
@@ -48,12 +60,14 @@ function App() {
           <button className="search-btn" onClick={toggleSearchBar}>
             <img src="./search.png" alt="Search" className="search-icon" />
           </button>
-          <input
-            type="text"
-            className="search-input"
-            placeholder="Search..."
-            autoFocus={isSearchOpen}
-          />
+          {isSearchOpen && (
+            <input
+              type="text"
+              className="search-input"
+              placeholder="Search..."
+              autoFocus
+            />
+          )}
         </div>
       </header>
     </div>

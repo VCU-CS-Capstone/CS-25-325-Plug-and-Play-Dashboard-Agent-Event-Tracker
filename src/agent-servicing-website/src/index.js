@@ -3,27 +3,9 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import ReactGA from "react-ga4"
 
-/* global dataLayer */ // Define dataLayer as a global variable for ESLint
-
-// Google Analytics Initialization Function
-function initializeGoogleAnalytics() {
-  const trackingID = process.env.REACT_APP_GOOGLE_ANALYTICS_ID;
-  if (trackingID) {
-    const script = document.createElement("script");
-    script.src = `https://www.googletagmanager.com/gtag/js?id=${trackingID}`;
-    script.async = true;
-    document.head.appendChild(script);
-
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){ dataLayer.push(arguments); }
-    gtag('js', new Date());
-    gtag('config', trackingID);
-  }
-}
-
-// Call the function to initialize Google Analytics
-initializeGoogleAnalytics();
+ReactGA.initialize(process.env.REACT_APP_GOOGLE_ANALYTICS_ID, { debug: true });
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -32,5 +14,7 @@ root.render(
   </React.StrictMode>
 );
 
-// Measure performance in the app
+// If you want to start measuring performance in your app, pass a function
+// to log results (for example: reportWebVitals(console.log))
+// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
 reportWebVitals();
