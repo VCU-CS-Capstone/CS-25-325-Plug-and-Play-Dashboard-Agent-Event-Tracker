@@ -5,7 +5,9 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import ReactGA from "react-ga4"
 
-ReactGA.initialize(process.env.REACT_APP_GOOGLE_ANALYTICS_ID, { debug: true });
+const id = process.env.REACT_APP_GOOGLE_ANALYTICS_ID
+ReactGA.initialize(id);
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
