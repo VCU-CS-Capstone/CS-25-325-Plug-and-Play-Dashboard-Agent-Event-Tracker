@@ -31,6 +31,17 @@ function App() {
 
         <nav className="nav-links">
           <div className="dropdown">
+            <button className="dropbtn reason">Reason for Call Today</button>
+            <div className="dropdown-content">
+              <a href="#">Payment/Auto Pay</a>
+              <a href="#">Fraud</a>
+              <a href="#">Replace/Renew Card</a>
+              <a href="#">New Customer</a>
+              <a href="#">Rewards/Redem</a>
+              <a href="#">Account Activity</a>
+            </div>
+          </div>
+          <div className="dropdown">
             <button className="dropbtn">Support</button>
             <div className="dropdown-content">
               <a href="#">ChatBot</a>
@@ -43,15 +54,6 @@ function App() {
             <div className="dropdown-content">
               <a href="#">Advisor</a>
               <a href="#">Contact Us</a>
-            </div>
-          </div>
-          <div className="dropdown">
-            <button className="dropbtn reason">Reason for Call Today</button>
-            <div className="dropdown-content">
-              <a href="#">Payment</a>
-              <a href="#">Fraud</a>
-              <a href="#">Renew Card</a>
-              <a href="#">New Customer</a>
             </div>
           </div>
         </nav>
