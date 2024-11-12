@@ -21,7 +21,7 @@ Status Report Fall Week XX.md is a template for to copy-paste into new Status re
 | Week 8 Status Report | Research Google Analytics & ReactJS, meet together to start on creation of website| Learned ReactJS and started website development| No problems as of now|
 | Week 9 Status Report | Uploaded Basic Website to Github Pages, met with group 326 and have set up a line of communication for future reference| Work on establishing google analytics to our dummy site, and research snowflake | No problems as of now |
 | Week 10 Status Report | Working on google analytics integration as well as improving the website, based on suggestions from captial one advisors | Continue researching snowflake and continue google analytics integration | No problems as of now |
-| Week 11 Status Report | | | |
+| Week 11 Status Report | Continued Research and work on integration of google analytics through google tag manager | Finish up integration of google analytics then onto work on snowflake | No problems as of now |
 | Week 12 Status Report | | | |
 | Week 13 Status Report | | | |
 | Week 14 Status Report | | | |
