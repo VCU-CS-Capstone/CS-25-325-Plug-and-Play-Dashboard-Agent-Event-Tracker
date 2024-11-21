@@ -10,6 +10,7 @@ Faculty Advisor: Rachita Sowle
    - Started work on google analytics integration within website
 ## 2) Milestones to be completed next week ##
    - Continue work on google analytics integration
-   - Start work on integrating snowflake
+   - Start implementing google tag manager
+   - Start research on snowflake integration
 ## 3) Issues, problems or concerns ## 
-   - No issues to report yet
+   - Migration of data from google analytics to snowflake seems to be a bit of a concern, definetly possible but need to do a lot of research 
