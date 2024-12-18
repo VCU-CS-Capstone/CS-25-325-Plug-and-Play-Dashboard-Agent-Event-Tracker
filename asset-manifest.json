@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/CS-25-325-Plug-and-Play-Dashboard-Agent-Event-Tracker/static/css/main.23c0e7c4.css",
-    "main.js": "/CS-25-325-Plug-and-Play-Dashboard-Agent-Event-Tracker/static/js/main.871f1bd2.js",
-    "static/js/453.3f2e181d.chunk.js": "/CS-25-325-Plug-and-Play-Dashboard-Agent-Event-Tracker/static/js/453.3f2e181d.chunk.js",
-    "index.html": "/CS-25-325-Plug-and-Play-Dashboard-Agent-Event-Tracker/index.html",
-    "main.23c0e7c4.css.map": "/CS-25-325-Plug-and-Play-Dashboard-Agent-Event-Tracker/static/css/main.23c0e7c4.css.map",
-    "main.871f1bd2.js.map": "/CS-25-325-Plug-and-Play-Dashboard-Agent-Event-Tracker/static/js/main.871f1bd2.js.map",
-    "453.3f2e181d.chunk.js.map": "/CS-25-325-Plug-and-Play-Dashboard-Agent-Event-Tracker/static/js/453.3f2e181d.chunk.js.map"
+    "main.css": "/static/css/main.23c0e7c4.css",
+    "main.js": "/static/js/main.a47fb604.js",
+    "static/js/453.3f2e181d.chunk.js": "/static/js/453.3f2e181d.chunk.js",
+    "index.html": "/index.html",
+    "main.23c0e7c4.css.map": "/static/css/main.23c0e7c4.css.map",
+    "main.a47fb604.js.map": "/static/js/main.a47fb604.js.map",
+    "453.3f2e181d.chunk.js.map": "/static/js/453.3f2e181d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.23c0e7c4.css",
-    "static/js/main.871f1bd2.js"
+    "static/js/main.a47fb604.js"
   ]
 }
