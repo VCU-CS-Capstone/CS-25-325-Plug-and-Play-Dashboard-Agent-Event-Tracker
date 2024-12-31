@@ -11,19 +11,30 @@ body {
   padding: 0;
 }
 
-/* Header styles - positions the entire header at the top */
+/* Header styles - keeps the header fixed at the top */
 .header {
   display: flex;
   justify-content: center; /* Center header content horizontally */
   align-items: center; /* Center header content vertically */
   padding: 0;
-  background-color: #f0f0f0;
-  height: 0.75in; /* Set header height */
-  position: fixed;
+  background-color: #f0f0f0; /* Gray background specific to the header */
+  height: 0.75in; 
+  position: fixed; /* Keep the header fixed at the top */
   top: 0;
   left: 0;
-  right: 250px;
+  right: 0; 
   z-index: 1000;
+  border-bottom: 1px solid #ddd; 
+}
+
+/* Add padding to main content to avoid overlapping with the fixed header */
+.content {
+  padding-top: 0.85in; 
+}
+
+/* Add a margin-top to the main content to avoid overlapping with the fixed header */
+.content {
+  margin-top: 0.75in; 
 }
 
 /* Styles for the logo area */
