@@ -1,4 +1,4 @@
-# *CS 25-325 Status Report Week 10*
+# *CS 25-325 Status Report Week 11*
 
 Students' Names: Maxwell Goehle, Hoang Le, Ben Aber, Mohammed Ahmed
 
@@ -11,6 +11,7 @@ Faculty Advisor: Rachita Sowle
    - Met with capital one to discuss integration as well as progress on the project
 ## 2) Milestones to be completed next week ##
    - Finish google analytics integration
+   - Finish google tag manager integration
    - Get started on snowflake integration as well as research tableau and prepare for visualization
 ## 3) Issues, problems or concerns ## 
-   - No issues to report yet
+   - Snowflake integration should be easier than initially expected with the use of BigQuery
