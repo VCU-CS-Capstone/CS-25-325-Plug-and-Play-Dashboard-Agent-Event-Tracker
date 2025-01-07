@@ -5,11 +5,8 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import ReactGA from "react-ga4"
 
-<<<<<<< HEAD
-const id = "S7XSSNJ5Y1";
-=======
+
 const id = 'G-S7XSSNJ5Y1'
->>>>>>> 7c305842b9947afb00c2020fc9b8ea4f4326be1e
 ReactGA.initialize(id);
 
 
