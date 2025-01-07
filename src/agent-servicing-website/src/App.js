@@ -44,7 +44,7 @@ function App() {
     setFilteredAccounts(filtered);
   };
 
-  const isHomePage = window.location.pathname === "/";
+  const isHomePage = window.location.pathname === "/CS-25-325-Plug-and-Play-Dashboard-Agent-Event-Tracker";
 
   return (
     <Router basename="/CS-25-325-Plug-and-Play-Dashboard-Agent-Event-Tracker">
