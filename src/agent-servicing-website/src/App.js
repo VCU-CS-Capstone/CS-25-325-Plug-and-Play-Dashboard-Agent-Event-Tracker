@@ -1,9 +1,14 @@
 // App.js
 import React, { useState, useEffect } from "react";
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-import './App.css';
+import { BrowserRouter as Router, Route, Routes, Link } from "react-router-dom";
+import "./App.css";
 import MyComponent from "./components/MyComponent";
-import Payment from "./components/Payment"; 
+import Payment from "./components/Payment";
+import Chatbot from "./components/Chatbot";
+import Ticket from "./components/Ticket";
+import FAQ from "./components/FAQ";
+import Advisor from "./components/Advisor";
+import Contact from "./components/Contact";
 import ReactGA from "react-ga4";
 
 function App() {
@@ -42,47 +47,47 @@ function App() {
   const isHomePage = window.location.pathname === "/";
 
   return (
-    <Router>
+    <Router basename="/CS-25-325-Plug-and-Play-Dashboard-Agent-Event-Tracker">
       <div className="App">
         <header className="header">
           <div className="logo">
-            <img src="./vcu.png" alt="VCU Logo" />
-            <img src="./x.png" alt="X" />
-            <img src="./capitalone.png" alt="Capital One Logo" />
+            <img src={`${process.env.PUBLIC_URL}/vcu.png`} alt="VCU Logo" />
+            <img src={`${process.env.PUBLIC_URL}/x.png`} alt="X" />
+            <img src={`${process.env.PUBLIC_URL}/capitalone.png`} alt="Capital One Logo" />
           </div>
 
           <nav className="nav-links">
             <div className="dropdown">
               <button className="dropbtn reason">Reason for Call Today</button>
               <div className="dropdown-content">
-                <a href="/payment-auto-pay">Payment/Auto Pay</a>
-                <a href="#">Fraud</a>
-                <a href="#">Replace/Renew Card</a>
-                <a href="#">New Customer</a>
-                <a href="#">Rewards/Redem</a>
-                <a href="#">Account Activity</a>
+                <Link to="/payment-auto-pay">Payment/Auto Pay</Link>
+                <Link to="/fraud">Fraud</Link>
+                <Link to="/replace-card">Replace/Renew Card</Link>
+                <Link to="/new-customer">New Customer</Link>
+                <Link to="/rewards">Rewards/Redem</Link>
+                <Link to="/account-activity">Account Activity</Link>
               </div>
             </div>
             <div className="dropdown">
               <button className="dropbtn">Support</button>
               <div className="dropdown-content">
-                <a href="#">ChatBot</a>
-                <a href="#">Submit Ticket</a>
-                <a href="#">FAQ's</a>
+                <Link to="/chatbot">ChatBot</Link>
+                <Link to="/ticket">Submit Ticket</Link>
+                <Link to="/faq">FAQ</Link>
               </div>
             </div>
             <div className="dropdown">
               <button className="dropbtn">Help</button>
               <div className="dropdown-content">
-                <a href="#">Advisor</a>
-                <a href="#">Contact Us</a>
+                <Link to="/advisor">Advisor</Link>
+                <Link to="/contact-us">Contact Us</Link>
               </div>
             </div>
           </nav>
 
-          <div className={`search-container ${isSearchOpen ? 'active' : ''}`}>
+          <div className={`search-container ${isSearchOpen ? "active" : ""}`}>
             <button className="search-btn" onClick={toggleSearchBar}>
-              <img src="./search.png" alt="Search" className="search-icon" />
+              <img src={`${process.env.PUBLIC_URL}/search.png`} alt="Search" className="search-icon" />
             </button>
             {isSearchOpen && (
               <input
@@ -124,7 +129,12 @@ function App() {
 
           <Routes>
             <Route path="/payment-auto-pay" element={<Payment />} />
-            {/* Add other routes here */}
+            <Route path="/chatbot" element={<Chatbot />} />
+            <Route path="/ticket" element={<Ticket />} />
+            <Route path="/faq" element={<FAQ />} />
+            <Route path="/advisor" element={<Advisor />} />
+            <Route path="/contact-us" element={<Contact />} />
+            {/* Add other routes as needed */}
           </Routes>
         </main>
       </div>

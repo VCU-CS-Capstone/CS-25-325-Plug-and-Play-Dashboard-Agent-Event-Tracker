@@ -1,0 +1,141 @@
+body,
+input,
+textarea,
+select,
+button {
+  font-family: -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial,
+    sans-serif;
+  font-size: 16px;
+}
+
+.ticket-container {
+  width: 1200px;
+  padding: 30px;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin: 20px auto;
+}
+
+.ticket-container h2 {
+  margin-bottom: 25px;
+  color: black;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.ticket-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.form-group label {
+  font-weight: 600;
+  color: black;
+  font-size: 17px;
+}
+
+.form-group input,
+.form-group textarea {
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 16px;
+  height: 45px;
+}
+
+.form-group textarea {
+  resize: vertical;
+  min-height: 150px;
+  height: auto;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+  outline: none;
+  border-color: #0056b3;
+  box-shadow: 0 0 0 2px rgba(0, 86, 179, 0.1);
+}
+
+.button-group {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.option-button {
+  padding: 12px 24px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  background-color: #f8f9fa;
+  color: black;
+  transition: all 0.2s ease;
+}
+
+.option-button:hover {
+  background-color: #e9ecef;
+}
+
+.option-button.selected {
+  background-color: #0056b3;
+  color: white;
+  border-color: #0056b3;
+}
+
+.form-actions {
+  display: flex;
+  gap: 12px;
+  justify-content: flex-end;
+  margin-top: 25px;
+  background-color: transparent;
+}
+
+.submit-btn {
+  padding: 12px 24px;
+  background-color: #0056b3;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.submit-btn:hover {
+  background-color: #004494;
+}
+
+.cancel-btn {
+  padding: 12px 24px;
+  background-color: #f0f0f0;
+  color: black;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.cancel-btn:hover {
+  background-color: #e0e0e0;
+}
+
+/* Add responsive styles */
+@media (max-width: 1250px) {
+  .ticket-container {
+    width: 95%;
+    margin: 10px auto;
+    padding: 20px;
+  }
+}
