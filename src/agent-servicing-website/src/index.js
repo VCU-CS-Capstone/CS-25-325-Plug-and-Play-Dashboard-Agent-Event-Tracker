@@ -5,7 +5,7 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import ReactGA from "react-ga4"
 
-const id = process.env.REACT_APP_GOOGLE_ANALYTICS_ID
+const id = 'G-S7XSSNJ5Y1'
 ReactGA.initialize(id);
 
 
