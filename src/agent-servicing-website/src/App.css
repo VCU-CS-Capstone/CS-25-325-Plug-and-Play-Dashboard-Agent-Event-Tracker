@@ -11,6 +11,7 @@ body {
   padding: 0;
 }
 
+
 /* Header styles - keeps the header fixed at the top */
 .header {
   display: flex;
@@ -45,7 +46,7 @@ body {
 
 /* Adjusts the size and spacing between logos */
 .logo img {
-  height: 45px;
+  height: 30px;
   margin-right: 5px;
 }
 
@@ -77,7 +78,7 @@ body {
   position: relative;
   transition: color 0.3s ease, font-weight 0.3s ease;
   min-width: 90px;
-  height: 40px; /* Button height */
+  height: 30px; /* Button height */
   box-sizing: border-box;
   line-height: normal;
 }
@@ -155,7 +156,7 @@ body {
   background-color: transparent;
   border: none;
   cursor: pointer;
-  padding: 8px;
+  padding: 1px;
   margin-left: 20px;
 }
 

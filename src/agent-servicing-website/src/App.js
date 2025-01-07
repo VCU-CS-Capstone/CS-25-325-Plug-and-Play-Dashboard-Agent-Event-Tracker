@@ -1,8 +1,11 @@
 import React, { useState, useEffect } from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-import './App.css';
+import "./App.css";
 import MyComponent from "./components/MyComponent";
-import Payment from "./components/Payment"; 
+import Payment from "./components/Payment";
+import Chatbot from "./components/Chatbot";
+import Ticket from "./components/Ticket";
+import FAQ from "./components/FAQ";
 import ReactGA from "react-ga4";
 
 function App() {
@@ -44,9 +47,9 @@ function App() {
             <div className="dropdown">
               <button className="dropbtn">Support</button>
               <div className="dropdown-content">
-                <a href="#">ChatBot</a>
-                <a href="#">Submit Ticket</a>
-                <a href="#">FAQ's</a>
+                <a href="/chatbot">ChatBot</a>
+                <a href="/ticket">Submit Ticket</a>
+                <a href="/faq">FAQ</a>
               </div>
             </div>
             <div className="dropdown">
@@ -58,7 +61,7 @@ function App() {
             </div>
           </nav>
 
-          <div className={`search-container ${isSearchOpen ? 'active' : ''}`}>
+          <div className={`search-container ${isSearchOpen ? "active" : ""}`}>
             <button className="search-btn" onClick={toggleSearchBar}>
               <img src="./search.png" alt="Search" className="search-icon" />
             </button>
@@ -76,7 +79,9 @@ function App() {
         <main>
           <Routes>
             <Route path="/payment-auto-pay" element={<Payment />} />
-            {/* Add other routes here */}
+            <Route path="/chatbot" element={<Chatbot />} />
+            <Route path="/ticket" element={<Ticket />} />
+            <Route path="/faq" element={<FAQ />} />
           </Routes>
         </main>
       </div>
