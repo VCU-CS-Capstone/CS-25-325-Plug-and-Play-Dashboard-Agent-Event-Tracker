@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/CS-25-325-Plug-and-Play-Dashboard-Agent-Event-Tracker/static/css/main.e4a7fa5c.css",
-    "main.js": "/CS-25-325-Plug-and-Play-Dashboard-Agent-Event-Tracker/static/js/main.4931708e.js",
+    "main.css": "/CS-25-325-Plug-and-Play-Dashboard-Agent-Event-Tracker/static/css/main.43070341.css",
+    "main.js": "/CS-25-325-Plug-and-Play-Dashboard-Agent-Event-Tracker/static/js/main.00f7c2c1.js",
     "static/js/453.3f2e181d.chunk.js": "/CS-25-325-Plug-and-Play-Dashboard-Agent-Event-Tracker/static/js/453.3f2e181d.chunk.js",
     "index.html": "/CS-25-325-Plug-and-Play-Dashboard-Agent-Event-Tracker/index.html",
-    "main.e4a7fa5c.css.map": "/CS-25-325-Plug-and-Play-Dashboard-Agent-Event-Tracker/static/css/main.e4a7fa5c.css.map",
-    "main.4931708e.js.map": "/CS-25-325-Plug-and-Play-Dashboard-Agent-Event-Tracker/static/js/main.4931708e.js.map",
+    "main.43070341.css.map": "/CS-25-325-Plug-and-Play-Dashboard-Agent-Event-Tracker/static/css/main.43070341.css.map",
+    "main.00f7c2c1.js.map": "/CS-25-325-Plug-and-Play-Dashboard-Agent-Event-Tracker/static/js/main.00f7c2c1.js.map",
     "453.3f2e181d.chunk.js.map": "/CS-25-325-Plug-and-Play-Dashboard-Agent-Event-Tracker/static/js/453.3f2e181d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e4a7fa5c.css",
-    "static/js/main.4931708e.js"
+    "static/css/main.43070341.css",
+    "static/js/main.00f7c2c1.js"
   ]
 }
