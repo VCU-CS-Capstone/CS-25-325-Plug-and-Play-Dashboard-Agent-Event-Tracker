@@ -29,12 +29,7 @@ body {
 
 /* Add padding to main content to avoid overlapping with the fixed header */
 .content {
-  padding-top: 0.85in; 
-}
-
-/* Add a margin-top to the main content to avoid overlapping with the fixed header */
-.content {
-  margin-top: 0.75in; 
+  padding-top: 1.0in; 
 }
 
 /* Styles for the logo area */
@@ -185,4 +180,46 @@ body {
 .search-container.active .search-input {
   opacity: 1;
   visibility: visible;
+}
+
+/* Account Lookup Section */
+.account-lookup {
+  margin-top: 20px; /* Ensure spacing below header */
+  padding: 15px;
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.account-lookup h2 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.account-search-bar input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.account-results {
+  margin-top: 15px;
+}
+
+.account-item {
+  padding: 8px;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.account-item:last-child {
+  border-bottom: none;
+}
+
+.account-item:hover {
+  background-color: #f9f9f9;
+  cursor: pointer;
 }

@@ -1,3 +1,4 @@
+// App.js
 import React, { useState, useEffect } from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import './App.css';
@@ -7,6 +8,14 @@ import ReactGA from "react-ga4";
 
 function App() {
   const [isSearchOpen, setIsSearchOpen] = useState(false);
+  const [accountSearchTerm, setAccountSearchTerm] = useState("");
+  const [filteredAccounts, setFilteredAccounts] = useState([]);
+
+  const sampleAccounts = [
+    { id: 1, name: "John Doe" },
+    { id: 2, name: "Jane Smith" },
+    { id: 3, name: "Mike Johnson" },
+  ];
 
   useEffect(() => {
     ReactGA.send({
@@ -18,6 +27,19 @@ function App() {
   const toggleSearchBar = () => {
     setIsSearchOpen(!isSearchOpen);
   };
+
+  const handleAccountSearch = (event) => {
+    const searchTerm = event.target.value.toLowerCase();
+    setAccountSearchTerm(searchTerm);
+    const filtered = sampleAccounts.filter(
+      (account) =>
+        account.name.toLowerCase().includes(searchTerm) ||
+        account.id.toString().includes(searchTerm)
+    );
+    setFilteredAccounts(filtered);
+  };
+
+  const isHomePage = window.location.pathname === "/";
 
   return (
     <Router>
@@ -73,7 +95,33 @@ function App() {
           </div>
         </header>
 
-        <main>
+        <main className="content">
+          {/* Render Account Lookup only on the homepage */}
+          {isHomePage && (
+            <section className="account-lookup">
+              <h2>Account Lookup</h2>
+              <div className="account-search-bar">
+                <input
+                  type="text"
+                  placeholder="Search by Name or ID..."
+                  value={accountSearchTerm}
+                  onChange={handleAccountSearch}
+                />
+              </div>
+              <div className="account-results">
+                {filteredAccounts.length > 0 ? (
+                  filteredAccounts.map((account) => (
+                    <div key={account.id} className="account-item">
+                      {account.name} (ID: {account.id})
+                    </div>
+                  ))
+                ) : (
+                  <p>No accounts found.</p>
+                )}
+              </div>
+            </section>
+          )}
+
           <Routes>
             <Route path="/payment-auto-pay" element={<Payment />} />
             {/* Add other routes here */}
