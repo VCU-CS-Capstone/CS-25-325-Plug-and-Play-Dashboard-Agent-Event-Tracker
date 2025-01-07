@@ -1,0 +1,15 @@
+.contact-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin:auto;
+    max-width: 900px;
+    padding: 40px;
+    margin-top: 90px;
+    border: 22px solid white;
+    border-radius: 5px;
+    font-family: Arial, sans-serif;
+    line-height: 35px;
+  }

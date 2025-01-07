@@ -3,6 +3,8 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import './App.css';
 import MyComponent from "./components/MyComponent";
 import Payment from "./components/Payment"; 
+import Advisor from "./components/Advisor"
+import Contact from "./components/Contact"
 import ReactGA from "react-ga4";
 
 function App() {
@@ -52,8 +54,8 @@ function App() {
             <div className="dropdown">
               <button className="dropbtn">Help</button>
               <div className="dropdown-content">
-                <a href="#">Advisor</a>
-                <a href="#">Contact Us</a>
+                <a href="/advisor">Advisor</a>
+                <a href="/contact-us">Contact Us</a>
               </div>
             </div>
           </nav>
@@ -73,9 +75,12 @@ function App() {
           </div>
         </header>
 
+        
         <main>
           <Routes>
             <Route path="/payment-auto-pay" element={<Payment />} />
+            <Route path="/advisor" element={<Advisor />} />
+            <Route path="/contact-us" element={<Contact />} />
             {/* Add other routes here */}
           </Routes>
         </main>
