@@ -4,6 +4,10 @@ import { BrowserRouter as Router, Route, Routes, Link } from "react-router-dom";
 import "./App.css";
 import MyComponent from "./components/MyComponent";
 import Payment from "./components/Payment";
+import ReportFraud from "./components/ReportFraud";
+import ReplaceCard from "./components/ReplaceCard";
+import NewCustomer from "./components/NewCustomer";
+import AccountActivity from "./components/AccountActivity";
 import Chatbot from "./components/Chatbot";
 import Ticket from "./components/Ticket";
 import FAQ from "./components/FAQ";
@@ -44,16 +48,27 @@ function App() {
     setFilteredAccounts(filtered);
   };
 
-  const isHomePage = window.location.pathname === "/CS-25-325-Plug-and-Play-Dashboard-Agent-Event-Tracker";
+  const isHomePage =
+    window.location.pathname ===
+    "/CS-25-325-Plug-and-Play-Dashboard-Agent-Event-Tracker";
 
   return (
     <Router basename="/CS-25-325-Plug-and-Play-Dashboard-Agent-Event-Tracker">
       <div className="App">
         <header className="header">
           <div className="logo">
-            <img src={`${process.env.PUBLIC_URL}/vcu.png`} alt="VCU Logo" />
-            <img src={`${process.env.PUBLIC_URL}/x.png`} alt="X" />
-            <img src={`${process.env.PUBLIC_URL}/capitalone.png`} alt="Capital One Logo" />
+            <Link to="/">
+              <img src={`${process.env.PUBLIC_URL}/vcu.png`} alt="VCU Logo" />
+            </Link>
+            <Link to="/">
+              <img src={`${process.env.PUBLIC_URL}/x.png`} alt="X" />
+            </Link>
+            <Link to="/">
+              <img
+                src={`${process.env.PUBLIC_URL}/capitalone.png`}
+                alt="Capital One Logo"
+              />
+            </Link>
           </div>
 
           <nav className="nav-links">
@@ -61,10 +76,9 @@ function App() {
               <button className="dropbtn reason">Reason for Call Today</button>
               <div className="dropdown-content">
                 <Link to="/payment-auto-pay">Payment/Auto Pay</Link>
-                <Link to="/fraud">Fraud</Link>
+                <Link to="/report-fraud">Fraud</Link>
                 <Link to="/replace-card">Replace/Renew Card</Link>
                 <Link to="/new-customer">New Customer</Link>
-                <Link to="/rewards">Rewards/Redem</Link>
                 <Link to="/account-activity">Account Activity</Link>
               </div>
             </div>
@@ -87,7 +101,11 @@ function App() {
 
           <div className={`search-container ${isSearchOpen ? "active" : ""}`}>
             <button className="search-btn" onClick={toggleSearchBar}>
-              <img src={`${process.env.PUBLIC_URL}/search.png`} alt="Search" className="search-icon" />
+              <img
+                src={`${process.env.PUBLIC_URL}/search.png`}
+                alt="Search"
+                className="search-icon"
+              />
             </button>
             {isSearchOpen && (
               <input
@@ -129,6 +147,10 @@ function App() {
 
           <Routes>
             <Route path="/payment-auto-pay" element={<Payment />} />
+            <Route path="/report-fraud" element={<ReportFraud />} />
+            <Route path="/replace-card" element={<ReplaceCard />} />
+            <Route path="/new-customer" element={<NewCustomer />} />
+            <Route path="/account-activity" element={<AccountActivity />} />
             <Route path="/chatbot" element={<Chatbot />} />
             <Route path="/ticket" element={<Ticket />} />
             <Route path="/faq" element={<FAQ />} />
