@@ -225,3 +225,14 @@ body {
   background-color: #f9f9f9;
   cursor: pointer;
 }
+
+.account-link {
+  text-decoration: none; /* Removes underline */
+  color: inherit;        /* Ensures the text color matches the surrounding text */
+}
+
+.account-link:hover {
+  color: #007bff; /* Optional: Add a hover effect for better user experience */
+  text-decoration: underline; /* Optional: Add underline back on hover */
+}
+

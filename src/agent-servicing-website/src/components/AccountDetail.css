@@ -1,0 +1,144 @@
+/* General Styles */
+.account-detail-container {
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    max-width: 900px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    justify-content: center; /* Center content vertically */
+    align-items: center; /* Center content horizontally */
+    min-height: 100vh; /* Make sure the container takes up at least the full height of the viewport */
+    text-align: center; /* Center text within the container */
+  }
+  
+  /* Account Detail Header */
+  .account-detail-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 25px;
+    width: 100%; /* Make sure the header stretches across the full width */
+  }
+  
+  .account-detail-header h2 {
+    font-size: 28px;
+    font-weight: 600;
+    color: #333;
+    margin: 0;
+  }
+  
+  .account-detail-header .back-button {
+    background-color: #007bff;
+    color: white;
+    padding: 12px 24px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    border: none;
+    text-decoration: none;
+  }
+  
+  .account-detail-header .back-button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Account Detail Body */
+  .account-detail-body {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  
+  /* Account Info */
+  .account-detail-info {
+    margin-bottom: 20px;
+  }
+  
+  .account-detail-info p {
+    font-size: 18px;
+    color: #555;
+    margin: 10px 0;
+    line-height: 1.6;
+  }
+  
+  .account-detail-info span {
+    font-weight: bold;
+    color: #333;
+  }
+  
+  /* Action Buttons */
+  .account-detail-actions {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    width: 100%;
+  }
+  
+  .account-detail-actions button {
+    background-color: #28a745;
+    color: white;
+    padding: 12px 24px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    border: none;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  .account-detail-actions button:hover {
+    background-color: #218838;
+    transform: translateY(-2px);
+  }
+  
+  .account-detail-actions .cancel-button {
+    background-color: #dc3545;
+  }
+  
+  .account-detail-actions .cancel-button:hover {
+    background-color: #c82333;
+    transform: translateY(-2px);
+  }
+  
+  /* Back Button Styles */
+  .account-detail-header .back-button {
+    transition: background-color 0.3s ease;
+  }
+  
+  .account-detail-header .back-button:focus {
+    outline: none;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .account-detail-container {
+      padding: 20px;
+      margin: 20px;
+    }
+  
+    .account-detail-header h2 {
+      font-size: 24px;
+    }
+  
+    .account-detail-info p {
+      font-size: 16px;
+    }
+  
+    .account-detail-actions {
+      flex-direction: column;
+      align-items: stretch;
+    }
+  
+    .account-detail-actions button {
+      width: 100%;
+      margin-bottom: 12px;
+    }
+  
+    .account-detail-actions .cancel-button {
+      margin-top: 12px;
+    }
+  }
+  
