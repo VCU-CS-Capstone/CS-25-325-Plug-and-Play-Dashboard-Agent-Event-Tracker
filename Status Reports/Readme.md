@@ -32,10 +32,10 @@ Status Report Fall Week XX.md is a template for to copy-paste into new Status re
 
 | Document | Tasks | Accomplishments| Issues |
 |---|---|---|---|
-| Week 1 Status Report | | | |
-| Week 2 Status Report | | | |
-| Week 3 Status Report | | | |
-| Week 4 Status Report | | | |
+| Week 1 Status Report | Assess google cloud vs snowflake | Switched from Snowflake to Google Cloud | Monetary Issues with Snowflake |
+| Week 2 Status Report | Finish up website | Created Tableau Student Accounts, Created Visulizations for Presentation Next Week | No problems as of now |
+| Week 3 Status Report | Capital One Presentation and Spring Team Contract | Created Presentation, Practiced and Gave Presentation, As well as submitted Spring Team Contract | No problems as of now |
+| Week 4 Status Report | Tableau Research | Relax we finished presentation, also some tableau research | No problems as of now |
 | Week 5 Status Report | | | |
 | Week 6 Status Report | | | |
 | Week 7 Status Report | | | |
