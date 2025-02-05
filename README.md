@@ -5,7 +5,7 @@ Capstone group CS-25-325 will build a website or get existing data from an alrea
 
 | Folder | Description |
 |---|---|
-| Documentation |  all documentation the project team has created to describe the architecture, design, installation, and configuration of the project |
+| Documentation |  All documentation the project team has created to describe the architecture, design, installation, and configuration of the project |
 | Notes and Research | Relevant helpful information to understand the tools and techniques used in the project |
 | Project Deliverables | Folder that contains final pdf versions of all Fall and Spring Major Deliverables |
 | Status Reports | Project management documentation - weekly reports, milestones, etc. |
