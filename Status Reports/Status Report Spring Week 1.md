@@ -10,7 +10,8 @@ Faculty Advisor: Rachita Sowle
    - Decided on Snowflake vs Google Cloud
    - Created Student Tableau Liscenses for everyone in the group
 ## 2) Milestones to be completed next week ##
-   - Create and give presentation for Capital One
+   - Finish up website
+   - Explore Tableau
 ## 3) Issues, problems or concerns ## 
    - No issues or concerns to report at this point
 
