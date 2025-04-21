@@ -12,4 +12,4 @@ Faculty Advisor: Rachita Sowle
 ## 2) Milestones to be completed next week ##
    - Continue work on graphs and add unique user metrics
 ## 3) Issues, problems or concerns ## 
-   - Navigation Issues between pages
+   - No problems as of now
