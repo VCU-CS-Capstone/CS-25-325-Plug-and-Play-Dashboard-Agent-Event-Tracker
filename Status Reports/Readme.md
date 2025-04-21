@@ -36,15 +36,15 @@ Status Report Fall Week XX.md is a template for to copy-paste into new Status re
 | Week 2 Status Report | Finish up website | Created Tableau Student Accounts, Created Visulizations for Presentation Next Week | No problems as of now |
 | Week 3 Status Report | Capital One Presentation and Spring Team Contract | Created Presentation, Practiced and Gave Presentation, As well as submitted Spring Team Contract | No problems as of now |
 | Week 4 Status Report | Tableau Research | Relax we finished presentation, also some tableau research | No problems as of now |
-| Week 5 Status Report | | | |
-| Week 6 Status Report | | | |
-| Week 7 Status Report | | | |
-| Week 8 Status Report | | | |
-| Week 9 Status Report | | | |
-| Week 10 Status Report | | | |
-| Week 11 Status Report | | | |
-| Week 12 Status Report | | | |
-| Week 13 Status Report | | | |
-| Week 14 Status Report | | | |
-| Week 15 Status Report | | | |
-| Week 16 Status Report | | | |
+| Week 5 Status Report | Setting up Tableau with Clickstream Data | Started Tableau Setup| Still trying to figure out how to filter data|
+| Week 6 Status Report | Finish Clickstream data setup in Tableau | Finised Clickstream data setup in Tableau| How to make unique graph visualizations |
+| Week 7 Status Report | Start making the dashboard pages| Made a home screen with basic Clickstream data | Need to figure out a navigation system between pages |
+| Week 8 Status Report | Start implementing navigation system between pages | Implemented basic button navigation between pages | Make better graphs |
+| Week 9 Status Report | Add unique metrics to measure | Added basic metrics like page time and unique users | Need to figure out more metrics |
+| Week 10 Status Report | Add more detailed metrics| Finished adding detailed metrics | Graphs are too small |
+| Week 11 Status Report | Come up with a more efficient navigation system | Came up with idea of navigation system within navigation system | No problems as of now |
+| Week 12 Status Report | Implement navigation system within navigation system | Completed new navigation system | No problems as of now |
+| Week 13 Status Report | Meet with Capital One advisors to discuss further improvements | Got ideas about filtering system | No problems as of now | 
+| Week 14 Status Report | Implement filtering system within data visualizations | Successfully added dropdown filtering buttons | No problems as of now |
+| Week 15 Status Report | Meet with Capital One advisors one last time | Add error message for infeasible filtering options | No problems as of now |
+| Week 16 Status Report | Prepare for Capstone EXPO on April 25 | Finished the final design of the dashboard | No problems as of now |
