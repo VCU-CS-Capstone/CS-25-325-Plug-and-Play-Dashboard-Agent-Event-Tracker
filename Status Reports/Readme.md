@@ -48,3 +48,5 @@ Status Report Fall Week XX.md is a template for to copy-paste into new Status re
 | Week 14 Status Report | Implement filtering system within data visualizations | Successfully added dropdown filtering buttons | No problems as of now |
 | Week 15 Status Report | Meet with Capital One advisors one last time | Add error message for infeasible filtering options | No problems as of now |
 | Week 16 Status Report | Prepare for Capstone EXPO on April 25 | Finished the final design of the dashboard | No problems as of now |
+| Week 17 Status Report | Finalize Final Report | Attended EXPO | No problems as of now |
+| Week 18 Status Report | N/A | Finalized and submitted final design report | No problems as of now |
